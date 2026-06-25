@@ -137,3 +137,6 @@ footer{
 html {
     scroll-padding-top: 140px;
 }
+section {
+    scroll-margin-top: 120px;
+}
