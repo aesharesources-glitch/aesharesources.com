@@ -52,7 +52,7 @@ header{
 }
 
 .hero{
-    background:linear-gradient(rgba(0,51,102,.8),rgba(0,51,102,.8)),
+    background:linear-gradient(rgba(0,51,102,.3),rgba(0,51,102,.3),
     url("hero banner.png");
     background-size:cover;
     background-position:center;
