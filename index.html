@@ -149,11 +149,20 @@ AESHA RESOURCES is a trusted procurement, sourcing and supply partner serving th
 window.addEventListener("scroll", function() {
     const header = document.querySelector("header");
 
+   <script>
+window.addEventListener("scroll", function() {
+    const header = document.querySelector("header");
+    const logo = document.getElementById("companyLogo");
+
     if (window.scrollY > 100) {
         header.style.padding = "0px 0";
+        logo.style.width = "220px";
     } else {
         header.style.padding = "15px 0";
+        logo.style.width = "350px";
     }
+});
+</script>
 });
 </script>
 
