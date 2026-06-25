@@ -134,3 +134,6 @@ footer{
         font-size:34px;
     }
 }
+html {
+    scroll-padding-top: 100px;
+}
