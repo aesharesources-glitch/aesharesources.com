@@ -276,3 +276,42 @@ section {
 }
 
 }
+/* Why Aesha */
+
+#why-aesha{
+    background:#f5f9fc;
+    padding:35px 0;
+}
+
+.highlights{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:25px;
+}
+
+.highlight-box{
+    background:#ffffff;
+    padding:25px 20px;
+    border-radius:10px;
+    text-align:center;
+    box-shadow:0 5px 18px rgba(0,0,0,0.08);
+    transition:all 0.3s ease;
+}
+
+.highlight-box:hover{
+    transform:translateY(-5px);
+    box-shadow:0 10px 25px rgba(0,0,0,0.15);
+}
+
+.highlight-box h3{
+    color:#003366;
+    font-size:32px;
+    margin-bottom:10px;
+}
+
+.highlight-box p{
+    color:#555;
+    font-size:16px;
+    line-height:1.5;
+}
+
