@@ -98,6 +98,15 @@ header{
 section{
     padding:70px 0;
 }
+
+#about,
+#services,
+#products,
+#industries,
+#process,
+#why-us{
+    padding:45px 0;
+}
 section p{
     margin-bottom:18px;
     text-align:justify;
