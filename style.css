@@ -161,7 +161,14 @@ html {
 section {
     scroll-margin-top: 120px;
 }
+/* QR Code */
 
+.qr-code{
+    width:180px;
+    height:auto;
+    display:block;
+    margin:0 auto;
+}
 
 .contact-name{
     color:white;
