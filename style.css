@@ -63,13 +63,20 @@ header{
 }
 
 .hero h1{
-    font-size:48px;
-    margin-bottom:20px;
+    font-size:56px;
+    font-weight:700;
+    max-width:1000px;
+    margin:0 auto 25px;
+    line-height:1.2;
+    text-shadow:2px 2px 8px rgba(0,0,0,0.6);
 }
 
 .hero p{
-    font-size:22px;
-    margin-bottom:20px;
+    font-size:26px;
+    max-width:900px;
+    margin:20px auto;
+    text-align:center;
+    text-shadow:1px 1px 6px rgba(0,0,0,0.6);
 }
 
 .btn{
