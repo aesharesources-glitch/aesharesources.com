@@ -56,7 +56,9 @@ header{
     transition:0.3s;
     padding:8px 0;
 }
-
+.nav-links a:hover{
+    color:#18d0d0;
+}
 .hero{
     background:linear-gradient(rgba(0,51,102,.15),rgba(0,51,102,.15)),
     url("hero banner.png");
