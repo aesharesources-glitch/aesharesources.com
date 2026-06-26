@@ -183,3 +183,44 @@ section {
     display:inline-block;
     margin-top:25px;
 }
+
+/* Contact Section Layout */
+
+.contact-wrapper{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:50px;
+    flex-wrap:wrap;
+}
+
+.contact-details{
+    flex:2;
+    min-width:300px;
+}
+
+.contact-qr{
+    flex:1;
+    text-align:center;
+}
+
+.contact-qr img{
+    max-width:220px;
+    width:100%;
+    border-radius:10px;
+    background:white;
+    padding:10px;
+}
+
+@media (max-width:768px){
+
+.contact-wrapper{
+    flex-direction:column;
+    text-align:left;
+}
+
+.contact-qr{
+    margin-top:30px;
+}
+
+}
