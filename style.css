@@ -111,10 +111,17 @@ h2{
 }
 
 .card{
-    background:#f8f8f8;
-    padding:25px;
-    border-radius:8px;
-    box-shadow:0 2px 8px rgba(0,0,0,.1);
+    background:#ffffff;
+    padding:30px;
+    border-radius:10px;
+    border-top:4px solid #00a3a3;
+    box-shadow:0 5px 18px rgba(0,0,0,0.08);
+    transition:all 0.3s ease;
+}
+
+.card:hover{
+    transform:translateY(-6px);
+    box-shadow:0 10px 25px rgba(0,0,0,0.15);
 }
 
 .contact{
