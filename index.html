@@ -495,34 +495,36 @@ window.addEventListener("scroll", function () {
         logo.style.width = "350px";
     }
 });
-    <script>
+  <script>
 
-window.addEventListener("scroll", function () {
-    const header = document.querySelector("header");
-    const logo = document.getElementById("companyLogo");
-
-    if (window.scrollY > 100) {
-        header.style.padding = "0";
-        logo.style.width = "220px";
-    } else {
-        header.style.padding = "15px 0";
-        logo.style.width = "350px";
-    }
-});
-
+const header = document.querySelector("header");
+const logo = document.getElementById("companyLogo");
 const backToTop = document.getElementById("backToTop");
 
 window.addEventListener("scroll", function () {
 
-    if (window.scrollY > 300) {
-        backToTop.classList.add("show");
+    if (window.scrollY > 100) {
+        header.style.padding = "0";
+        if (logo) {
+            logo.style.width = "220px";
+        }
     } else {
-        backToTop.classList.remove("show");
+        header.style.padding = "15px 0";
+        if (logo) {
+            logo.style.width = "350px";
+        }
+    }
+
+    if (backToTop) {
+        if (window.scrollY > 300) {
+            backToTop.classList.add("show");
+        } else {
+            backToTop.classList.remove("show");
+        }
     }
 
 });
 
-</script>
 </script>
 
 </body>
