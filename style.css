@@ -357,8 +357,8 @@ section {
 footer{
     background:#00264d;
     color:white;
-    padding:45px 20px 25px;
     text-align:center;
+    padding:45px 20px 25px;
 }
 
 footer h3{
@@ -370,60 +370,44 @@ footer h3{
 
 .footer-tagline{
     color:#18d0d0;
-    font-size:18px;
+    font-size:20px;
     font-weight:600;
     margin-bottom:10px;
 }
 
-.footer-industries{
-    color:#d8e7f7;
-    font-size:16px;
-    margin-bottom:25px;
+.footer-subtitle{
+    color:#d9e7f5;
+    font-size:17px;
+    margin-bottom:30px;
 }
 
 .footer-links{
-    margin:25px 0;
+    margin:20px 0 30px;
 }
 
 .footer-links a{
     color:white;
     text-decoration:none;
-    margin:0 14px;
+    margin:0 12px;
+    font-size:16px;
     font-weight:600;
-    transition:.3s;
+    transition:0.3s;
 }
 
 .footer-links a:hover{
     color:#18d0d0;
 }
 
-.footer-contact{
-    margin:25px 0;
-}
-
-.footer-contact p{
-    margin:8px 0;
-}
-
-.footer-contact a{
-    color:white;
-    text-decoration:none;
-}
-
-.footer-contact a:hover{
-    color:#18d0d0;
-}
-
 footer hr{
-    margin:30px auto;
     width:70%;
+    margin:30px auto 20px;
     border:none;
-    border-top:1px solid rgba(255,255,255,.25);
+    border-top:1px solid rgba(255,255,255,0.25);
 }
 
 .copyright{
+    color:#c8d6e5;
     font-size:15px;
-    color:#d8e7f7;
 }
 
 @media(max-width:768px){
