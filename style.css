@@ -247,7 +247,7 @@ section {
 .contact-wrapper{
     display:flex;
     justify-content:space-between;
-    align-items:center;
+    align-items:flex-start;
     gap:50px;
     flex-wrap:wrap;
 }
