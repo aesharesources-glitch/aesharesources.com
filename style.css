@@ -84,6 +84,13 @@ header{
     text-align:center;
     text-shadow:1px 1px 6px rgba(0,0,0,0.6);
 }
+.hero-tagline{
+    font-size:20px;
+    font-weight:600;
+    color:#FFE8A3;
+    letter-spacing:0.8px;
+    margin-top:18px;
+}
 
 .btn{
     display:inline-block;
