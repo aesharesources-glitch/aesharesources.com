@@ -260,10 +260,10 @@ section {
 .contact-qr{
     flex:1;
     text-align:center;
-}
+    margin-top:-10px;}
 
 .contact-qr img{
-    max-width:340px;
+     max-width:280px;
     width:100%;
     border-radius:10px;
     background:white;
