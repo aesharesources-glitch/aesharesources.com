@@ -181,13 +181,6 @@ h2{
     text-align:center;
 }
 
-footer{
-    background:#001f3f;
-    color:white;
-    text-align:center;
-    padding:20px;
-}
-
 @media(max-width:768px){
     .navbar{
         flex-direction:column;
@@ -354,6 +347,91 @@ section {
     .highlight-box p{
         font-size:15px;
     }
+
+}
+
+/* ===========================
+   FOOTER
+=========================== */
+
+footer{
+    background:#00264d;
+    color:white;
+    padding:45px 20px 25px;
+    text-align:center;
+}
+
+footer h3{
+    color:white;
+    font-size:30px;
+    margin-bottom:10px;
+    letter-spacing:1px;
+}
+
+.footer-tagline{
+    color:#18d0d0;
+    font-size:18px;
+    font-weight:600;
+    margin-bottom:10px;
+}
+
+.footer-industries{
+    color:#d8e7f7;
+    font-size:16px;
+    margin-bottom:25px;
+}
+
+.footer-links{
+    margin:25px 0;
+}
+
+.footer-links a{
+    color:white;
+    text-decoration:none;
+    margin:0 14px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.footer-links a:hover{
+    color:#18d0d0;
+}
+
+.footer-contact{
+    margin:25px 0;
+}
+
+.footer-contact p{
+    margin:8px 0;
+}
+
+.footer-contact a{
+    color:white;
+    text-decoration:none;
+}
+
+.footer-contact a:hover{
+    color:#18d0d0;
+}
+
+footer hr{
+    margin:30px auto;
+    width:70%;
+    border:none;
+    border-top:1px solid rgba(255,255,255,.25);
+}
+
+.copyright{
+    font-size:15px;
+    color:#d8e7f7;
+}
+
+@media(max-width:768px){
+
+.footer-links a{
+    display:block;
+    margin:10px 0;
+}
 
 }
 
