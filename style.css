@@ -69,12 +69,12 @@ header{
     padding:120px 20px;
 }
 .hero h1{
-    font-size:56px;
+    font-size:52px;
     font-weight:700;
-    max-width:1000px;
-    margin:0 auto 25px;
+    max-width:900px;
+    margin:0 auto 35px;
     line-height:1.2;
-    text-shadow:2px 2px 8px rgba(0,0,0,0.6);
+    text-shadow:3px 3px 10px rgba(0,0,0,0.65);
 }
 
 .hero p{
