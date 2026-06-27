@@ -308,8 +308,8 @@ section {
     color:#003366;
     font-size:32px;
     margin-bottom:10px;
+    min-height:80px;
 }
-
 .highlight-box p{
     color:#555;
     font-size:16px;
