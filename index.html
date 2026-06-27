@@ -481,6 +481,7 @@ Connecting Global Buyers with Reliable Global Manufacturers
 </div>
 
 </footer>
+    <a href="#" id="backToTop" title="Back to Top">↑</a>
 <script>
 window.addEventListener("scroll", function () {
     const header = document.querySelector("header");
@@ -494,6 +495,34 @@ window.addEventListener("scroll", function () {
         logo.style.width = "350px";
     }
 });
+    <script>
+
+window.addEventListener("scroll", function () {
+    const header = document.querySelector("header");
+    const logo = document.getElementById("companyLogo");
+
+    if (window.scrollY > 100) {
+        header.style.padding = "0";
+        logo.style.width = "220px";
+    } else {
+        header.style.padding = "15px 0";
+        logo.style.width = "350px";
+    }
+});
+
+const backToTop = document.getElementById("backToTop");
+
+window.addEventListener("scroll", function () {
+
+    if (window.scrollY > 300) {
+        backToTop.classList.add("show");
+    } else {
+        backToTop.classList.remove("show");
+    }
+
+});
+
+</script>
 </script>
 
 </body>
